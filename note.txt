@@ -1,0 +1,14 @@
+git clone
+Miniconda download
+since conda is not recognized even after installation, initialize file path 
+"C:\Users\Sophie\miniconda3\Scripts" in environmental variable
+conda create --name kedro-dvc python=3.11 -y
+conda activate
+cd spaceflights-pandas
+pip install -r requirements.txt
+cd..
+//creating "kedro" project
+kedro new --starter=spaceflights-pandas
+//after that it ask to give name for a new project
+//spacefligts-pandas-1st
+cd spacefligts-pandas-1st
